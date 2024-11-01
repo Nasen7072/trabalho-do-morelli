@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa e Artigos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portal de Pesquisa e Artigos</h1>
+        <nav>
+            <ul>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#pesquisa">Pesquisa</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="artigos">
+            <h2>Artigos Recentes</h2>
+            <article>
+                <h3>Título do Artigo 1</h3>
+                <p>Resumo do artigo 1. Este é um breve resumo do conteúdo abordado.</p>
+                <a href="#">Leia mais</a>
+            </article>
+            <article>
+                <h3>Título do Artigo 2</h3>
+                <p>Resumo do artigo 2. Este é um breve resumo do conteúdo abordado.</p>
+                <a href="#">Leia mais</a>
+            </article>
+        </section>
+        
+        <section id="pesquisa">
+            <h2>Pesquisar Artigos</h2>
+            <form>
+                <input type="text" placeholder="Digite sua pesquisa...">
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato pelo email: contato@exemplo.com</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Portal de Pesquisa e Artigos</p>
+    </footer>
+</body>
+</html>
