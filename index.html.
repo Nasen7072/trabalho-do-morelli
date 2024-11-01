@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href= "styles.css" screen" />
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +9,7 @@
 <body>
     <header>
         <h1>Portal de Pesquisa e Artigos</h1>
+        <button id="theme-toggle">Mudar para Modo Escuro</button>
         <nav>
             <ul>
                 <li><a href="#artigos">Artigos</a></li>
@@ -24,11 +24,13 @@
             <h2>Artigos Recentes</h2>
             <article>
                 <h3>Título do Artigo 1</h3>
+                <img src="https://via.placeholder.com/300" alt="Imagem do Artigo 1">
                 <p>Resumo do artigo 1. Este é um breve resumo do conteúdo abordado.</p>
                 <a href="#">Leia mais</a>
             </article>
             <article>
                 <h3>Título do Artigo 2</h3>
+                <img src="https://via.placeholder.com/300" alt="Imagem do Artigo 2">
                 <p>Resumo do artigo 2. Este é um breve resumo do conteúdo abordado.</p>
                 <a href="#">Leia mais</a>
             </article>
@@ -51,5 +53,7 @@
     <footer>
         <p>&copy; 2024 Portal de Pesquisa e Artigos</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
